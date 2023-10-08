@@ -5,7 +5,7 @@ Please note, the score will **NOT** appear when viewed from github, instead you 
 
 # My Score
 
-{% include_relative verovio_inline.html %}
+{% include_relative 1st_August_verovio_inline.html %}
 
 # Next heading
 
