@@ -1,14 +1,14 @@
 # MCA
 
 ## Identify a Theme for the Dataset
-For my dataset's theme I have chosen to focus on the band Lúnasa, specifically several tracks from their 2006 album "The Merry Sisters of Fate".
+For my dataset's theme I have chosen to focus on the Bulgarian Folk Song Кавал Свири (A Kaval Plays), specifically the Petar Lyondev arrangement as performed by the Ensemble Trakia on the 1998 album 'Le Mystere Des Voix Bulgares Vol.2'.
 
-Lúnasa are a contemporary Irish traditional music band who formed in 1997 and have seena shifting line up over their time touring.
+The Ensemble Trakia are a Bulgarian Folklore ensemble who were establised in 1974 by Professor Cyril Dzhenev.
 
-I have chosen to focus on Lúnasa as my theme as I am familiar with their music, and additionally as a traditional musician myself I feel that I have a deeper understanding of their music and musical approach that will help me complete further tasks to a higher standard.
+I have chosen to focus on this as my theme as Bulgarian Folklore music is a particular area of interest to me in my own performance practice - analysis will allow me to develop a deeper understanding of the music that I can apply practically.
 
-Furthermore, I will be able to use my own knowledge as a traditional musican to source the musical data that is required for further tasks. To gather this data I shall be using [thesession.org](thesession.org), a community run website that acts as a database of Sheet Music, Recordings and discussion forums regarding traditional music from Ireland, Scotland and beyond.
+Furthermore, I will be able to use my own knowledge as a traditional musician to understand and analyse the music effectively.
 
 
 ## Challenges Working with Music & Music Related Data
-I will be using thesession.org as a source of sheet music and links to recordings, this is an a database of Irish Music that anyone can add a setting ("version") of  tune to so difficulties could arise from trying to find the exact setting used in the recording.
+One of the most difficult challenges when working with music and music data is access to scores and notation, which becomes especially difficult when dealing with traditional musics as the majority of these traditions are 
