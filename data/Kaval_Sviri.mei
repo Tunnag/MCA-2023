@@ -1,13 +1,16 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/5.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0">
    <meiHead xml:id="mkw0gg7">
       <fileDesc xml:id="f17vzxhg">
          <titleStmt xml:id="tidwe48">
-            <title>Kaval Sviri</title>
+            <title codedval="1655156990985161180001" auth.uri="http://viaf.org/viaf/1655156990985161180001" auth="viaf">Kaval Sviri</title>
+            <title type="subtitle">A Kaval Plays</title>
             <respStmt>
-               <persName role="composer">Le mystère des voix bulgares</persName>
+               <persName role="composer">Traditional Bulgarian</persName>
+           
+               <persName role="Arranger" codedval="48388073" auth.uri="http://viaf.org/viaf/48388073" auth="viaf">Peter Lyondev</persName>
             </respStmt>
          </titleStmt>
          <pubStmt xml:id="p1pagxeq">
@@ -22,6 +25,18 @@
             </application>
          </appInfo>
       </encodingDesc>
+     <workList xml:id="workList">
+        <work>
+        	<title>Kaval Sviri</title>
+            <incip>
+                <perfRes>Women's Choir (SSAA)</perfRes>
+            </incip>
+            <tempo>Бавно (Slow)</tempo>
+           	<langUsage>
+               <language xml:id="bg-BG">Bulgarian</language>
+           	</langUsage>
+         </work>
+      </workList>
    </meiHead>
    <music>
       <body>
