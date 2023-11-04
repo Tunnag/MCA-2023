@@ -1,4 +1,4 @@
-# MCA
+# Week One
 
 ## Identify a Theme for the Dataset
 For my dataset's theme I have chosen to focus on the Bulgarian Folk Song Кавал Свири (A Kaval Plays), specifically the Petar Lyondev arrangement as performed by the Ensemble Trakia on the 1998 album 'Le Mystere Des Voix Bulgares Vol.2'.
