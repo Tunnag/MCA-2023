@@ -13,3 +13,5 @@ Converting a PDF of the tune 1st August (tune 1 of 2 from the Second track of th
 - Bar spacing of the volti did not transfer properly, put the seconda volta as a single bar on its own line of music.
 
 - Inserted an uneccessary (and redundant) clef and key signature midway through the piece.
+
+**CHANGE TO BE ABOUT КАВАЛ СВИРИ**
