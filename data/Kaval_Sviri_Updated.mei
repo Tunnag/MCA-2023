@@ -9,14 +9,14 @@
             <title type="subtitle">A Kaval Plays</title>
             <respStmt>
                <persName role="composer">Traditional Bulgarian</persName>
-           
+
                <persName role="Arranger" codedval="48388073" auth.uri="http://viaf.org/viaf/48388073" auth="viaf">Peter Lyondev</persName>
             </respStmt>
          </titleStmt>
          <pubStmt xml:id="p1pagxeq">
             <date isodate="2023-10-12" type="encoding-date">2023-10-12</date>
             <availability>
-                <useRestrict>© 1988 Elektra/Asylum/Nonesuch Records</useRestrict>
+               <useRestrict>© 1988 Elektra/Asylum/Nonesuch Records</useRestrict>
             </availability>
          </pubStmt>
       </fileDesc>
@@ -29,25 +29,31 @@
          </appInfo>
       </encodingDesc>
       <workList xml:id="workList">
-        <work>
-        	<title>Kaval Sviri</title>
+         <work>
+            <title>Kaval Sviri</title>
             <incip>
-                <perfRes>Women's Choir (SSAA)</perfRes>
+               <perfRes>Women's Choir (SSAA)</perfRes>
             </incip>
-           	<tempo>Бавно (Slow)</tempo>
-           	<langUsage>
+            <tempo>Бавно (Slow)</tempo>
+            <langUsage>
                <language xml:id="bg-BG">Bulgarian</language>
-           	</langUsage>
-           	<classification>
+            </langUsage>
+            <classification>
                <termList>
-            		<term>
-              			<title>Bulgarian Folk</title>
-            		</term>
-                  	<term>
-                      	<title>Choral</title>
-                  	</term>
+                  <term>
+                     <title>Bulgarian Folk</title>
+                  </term>
+                  <term>
+                     <title>Choral</title>
+                  </term>
+                  <term>
+                     <title>Folk</title>
+                  </term>
+                  <term>
+                     <title>World</title>
+                  </term>
                </termList>
-           	</classification>
+            </classification>
          </work>
       </workList>
    </meiHead>
