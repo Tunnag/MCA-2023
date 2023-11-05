@@ -15,3 +15,5 @@ For this section I converted my PDF Score of Кавал Свири to a Musescor
 - While note recognition throughout the OMR score was mostly correct, there are a few instances where incorrect note values and pitches are written including a few instances where a full chord of semibreves was inserted inplace of the actual bar's original content.
 
 - In a vocal score markings such as dynamics are typically placed above the stave they refer to as the lyrics are placed below, however the OMR has inconsistently placed these markings above and below the stave across the OMR score.
+
+- In general smaller markings were either inconsistent or absent throughout, as only some fermatta were recognised and none of the ornamentation was successfully recognised.
