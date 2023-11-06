@@ -1822,9 +1822,24 @@ mei-filedesc > mei-titlestmt > mei-respstmt {
   margin-top: 1em;
 }
 
+mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"] {
+order: 2;
+}
+
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
   font-weight: bold;
   content: "Composer: ";
+  white-space: pre;
+  margin-top: 2em;
+}
+
+mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="Arranger"] {
+  display: block;
+}
+
+mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="Arranger"]::before {
+  font-weight: bold;
+  content: "Arranger: ";
   white-space: pre;
   margin-top: 2em;
 }
@@ -1849,19 +1864,25 @@ mei-filedesc > mei-pubstmt > mei-date::before {
 }
 
 mei-filedesc > mei-pubstmt > mei-date::after {
-  content: '\a \a';
-  white-space: pre;
+  /* content: '\a \a';
+  white-space: pre; */
 }
 
 mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict {
-  font-style: italic;
   display: block;
-  margin-top: 0.5em;
+  /* margin-top: 0.5em; */
 }
 
 mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict::after {
-  content: '\a \a';
-  white-space: pre;
+  /* content: '\a \a'; */
+  /* white-space: pre; */
+}
+
+mei-filedesc > mei-pubstmt > mei-availability > mei-userestrict::before {
+  /* content: '\a \a'; */
+  font-weight: bold;
+  content: "Licensing: "
+
 }
 
 mei-seriesstmt {
@@ -1895,10 +1916,6 @@ mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-title[type="uni
 
 mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-title[type="uniform"]::after {
   content: ")";
-}
-
-mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-respstmt > mei-persname[role="composer"] {
-  display: none;
 }
 
 mei-filedesc > mei-sourcedesc > mei-source > mei-titlestmt > mei-respstmt > mei-persname[role="dedicatee"]::before {
@@ -1950,6 +1967,76 @@ mei-workdesc {
 mei-revisiondesc {
   display: none;
 }
+
+mei-worklist > mei-work > mei-classification > mei-termlist {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+mei-worklist > mei-work > mei-classification > mei-termlist > mei-term {
+  display: inline;
+}
+
+mei-worklist > mei-work > mei-classification > mei-termlist::before {
+  content: "Genre: ";
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+mei-worklist > mei-work > mei-classification > mei-termlist > mei-term:not(:last-child)::after {
+  content: ", ";
+}
+
+mei-worklist > mei-work > mei-title {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  order: 1;
+}
+
+mei-worklist > mei-work > mei-title::before {
+  content: "Title: ";
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+mei-worklist > mei-work > mei-tempo {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+mei-worklist > mei-work > mei-tempo::before {
+  content: "Tempo: ";
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+mei-worklist > mei-work > mei-langusage > mei-language {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+mei-worklist > mei-work > mei-langusage > mei-language::before {
+  content: "Language: ";
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+mei-worklist > mei-work > mei-incip > mei-perfres {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+mei-worklist > mei-work > mei-incip > mei-perfres::before {
+  content: "Ensemble: ";
+  font-weight: bold;
+  margin-right: 5px;
+}
+
 
 /* styles for html shell and html elements in TEI (e.g.,<a> and <img>) */
 html > body {
