@@ -4,4 +4,4 @@
 - [Week Two](Week_Two.html)
 - [Week Three](Week_Three.html)
 - [Week Four](Week_Four.html)
-- [Week Seven](Week_Seven_Metadata.html)
+- [Week Seven](Week_Seven.html)
