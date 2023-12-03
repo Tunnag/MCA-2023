@@ -1,5 +1,5 @@
 # Week Two
-For this section I converted my PDF Score of Кавал Свири to a Musescore file using the OMR (Optical Music Recognition) provided by the [Musescore Website](musescore.com/import).
+For this section I converted my PDF Score of Кавал Свири to a [Musescore file](/data/Kaval_Sviri_Fixed.mscz) using the OMR (Optical Music Recognition) provided by the Musescore Website.
 
 ## What didn't transfer well?
 - Did not transfer over metadata i.e the title of the tune, the composer, the type of tune, etc
