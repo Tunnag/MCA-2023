@@ -2039,7 +2039,7 @@ mei-worklist > mei-work > mei-incip > mei-perfres::before {
 
 
 /* styles for html shell and html elements in TEI (e.g.,<a> and <img>) */
-html > body {
+/* html > body {
   margin: 0;
   padding: 0;
 }
@@ -2053,4 +2053,4 @@ html {
   font-size: 12pt;
   background-color: white;
   color: #292929;
-}
+} */

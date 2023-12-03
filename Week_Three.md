@@ -1,11 +1,16 @@
-# Week Three
+---
+layout: default
+title: Week Three
+---
+
 Here is an inlined version of the Кавал Свири score via Verovio.
 
-# Кавал Свири
+## Кавал Свири
 
 {% include_relative Kaval_Sviri_verovio_inline.html %}
 
-# Comparison of MusicXML and MEI
+## Comparison of MusicXML and MEI
+
 An important consideration to be taken when comparing MusicXML and MEI is that while they do have similarities they have two different goals, as specified on the [MEI Website](https://music-encoding.org/about/#:~:text=How%20is%20MEI%20different%20from,interchange%20format%20between%20notation%20editors.) - MusicXML is primarily focused on being interchangable between notation editors while MEI is primarily focused on the encoding of a scores notation and intellectual content.
 
 1. One of the main differenes between MusicXML and MEI has to do with their ways of representing metadata.
@@ -16,9 +21,7 @@ An important consideration to be taken when comparing MusicXML and MEI is that w
 
    This makes the MEI appear more complex as it has more levels in which to display information.
 
-
 2. Another difference that I noticed was within the descriptions of each individual instrumental/vocal part of the score
-   
    Music XML lists the Part Name (with abbreviation), Instrument name (with abbreviation) and MIDI instrument information (including channel, program & volume.)
 
    MEI features the same information, as well as the additional information of the clef, key signature and time signature of each individual part.
@@ -27,8 +30,7 @@ An important consideration to be taken when comparing MusicXML and MEI is that w
 
    I find that this results in MEI being easier to read as types of information can be more clearly distinguished as they exist in one line each.
 
-
-3.  A third and rather large difference between MusicXML and MEI comes in relation to how measures and parts are represented and ordered within the text.
+3. A third and rather large difference between MusicXML and MEI comes in relation to how measures and parts are represented and ordered within the text.
 
     MusicXML has each part as its own section, having for part one (`<part id="P1">`) be the parent for the entirety of that parts notes in the score, before closing the part and moving onto part two, and so on.
 

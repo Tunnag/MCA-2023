@@ -1,4 +1,7 @@
-# Week Seven
+---
+layout: default
+title: Week Seven
+---
 
 ## Reasons for Metadata Choices
 
