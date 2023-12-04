@@ -9,7 +9,8 @@ body {
 .content {
     margin-left: 15%;
     padding: 1px 16px;
-    height: 1000px;
+    height: 100%;
+    z-index: 0;
 }
 
 .navigation {
@@ -22,9 +23,12 @@ body {
     position: fixed;
     height: 100%;
     overflow: auto;
+    z-index: 2;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
 
-li a {
+.navigation a {
     display: block;
     background-color: #D1E3ED;
     color: #254255;
@@ -37,7 +41,7 @@ li a {
     background-size: 0% 100%;
 }
 
-li a:hover {
+.navigation a:hover {
     color: #254255;
     background-size: 100% 100%;
 }
@@ -53,4 +57,27 @@ h1,
 h2 {
     color: #254255;
     text-decoration: underline;
+}
+
+.navigation:before,
+.navigation:after {
+    content: "";
+    position: fixed;
+    background-image: url("/data/images/Website_Border.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+    width: 15%;
+    height: 2%;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+
+.navigation:before {
+    top: 0;
+}
+
+.navigation:after {
+    bottom: 0;
+    z-index: 1;
 }

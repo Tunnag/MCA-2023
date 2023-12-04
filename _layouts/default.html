@@ -12,7 +12,6 @@
 
 <body>
 
-
     <ul class="navigation">
         <li><a href="index.html" {% if page.url=="/" %}style="background-color: #AAC7DA;" {% endif %}>Home</a>
         </li>
@@ -26,14 +25,16 @@
                 %}>Week Four</a></li>
         <li><a href="Week_Seven.html" {% if page.url=="/Week_Seven.html" %}style="background-color: #AAC7DA;" {% endif
                 %}>Week Seven</a></li>
+        <li><a href="bibliography.html" {% if page.url=="/bibliography.html" %}style="background-color: #AAC7DA;" {%
+                endif %}>Bibliography</a></li>
         <li class="footer">MCA 2023 - 2470301D</li>
     </ul>
 
 
     <div class="content">
 
-        <h1> {{ page.title }} </h1>
-        <p> {{ content }} </p>
+            <h1> {{ page.title }} </h1>
+            <p> {{ content }} </p>
 
     </div>
 
