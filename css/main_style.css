@@ -63,7 +63,7 @@ h2 {
 .navigation:after {
     content: "";
     position: fixed;
-    background-image: url("../data/images/Website_Border.png");
+    background-image: url("https://raw.githubusercontent.com/Tunnag/MCA-2023/master/data/Images/Website_Border.png");
     background-repeat: repeat-x;
     background-size: contain;
     width: 15%;
