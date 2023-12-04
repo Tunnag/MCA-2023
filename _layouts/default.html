@@ -3,7 +3,7 @@
 <head>
     <title> {{ page.title }} </title>
     <meta charset="utf-8">
-    
+
     <!-- <link rel="stylesheet" href="css/CETEIcean.css" media="all" /> -->
     <!-- <link rel="stylesheet" href="css/style.css" media="all" /> -->
     <link rel="stylesheet" href="css/main_style.css" media="all" />
@@ -12,27 +12,32 @@
 
 <body>
 
-    
+
     <ul class="navigation">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Week_One.html">Week One</a></li>
-        <li><a href="Week_Two.html">Week Two</a></li>
-        <li><a href="Week_Three.html">Week Three</a></li>
-        <li><a href="Week_Four.html">Week Four</a></li>
-        <li><a href="Week_Seven.html">Week Seven</a></li>
+        <li><a href="index.html" {% if page.url=="/" %}style="background-color: #AAC7DA;" {% endif %}>Home</a>
+        </li>
+        <li><a href="Week_One.html" {% if page.url=="/Week_One.html" %}style="background-color: #AAC7DA;" {% endif
+                %}>Week One</a></li>
+        <li><a href="Week_Two.html" {% if page.url=="/Week_Two.html" %}style="background-color: #AAC7DA;" {% endif
+                %}>Week Two</a></li>
+        <li><a href="Week_Three.html" {% if page.url=="/Week_Three.html" %}style="background-color: #AAC7DA;" {% endif
+                %}>Week Three</a></li>
+        <li><a href="Week_Four.html" {% if page.url=="/Week_Four.html" %}style="background-color: #AAC7DA;" {% endif
+                %}>Week Four</a></li>
+        <li><a href="Week_Seven.html" {% if page.url=="/Week_Seven.html" %}style="background-color: #AAC7DA;" {% endif
+                %}>Week Seven</a></li>
+        <li class="footer">MCA 2023 - 2470301D</li>
     </ul>
-    
-    
-    <div class="content"> 
-        
+
+
+    <div class="content">
+
         <h1> {{ page.title }} </h1>
         <p> {{ content }} </p>
 
     </div>
 
-    <footer>
-        <p>MCA 2023 - 2470301D</p>
-    </footer>
+
 </body>
 
 </html>

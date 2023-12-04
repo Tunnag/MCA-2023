@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Istok Web';
-    background-color: #faf1f0;
+    background-color: #ffffff;
     margin: 0;
 }
 
@@ -18,7 +18,7 @@ body {
     margin: 0;
     padding: 0;
     width: 15%;
-    background-color: #f1f1f1;
+    background-color: #F7FCFF;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -26,13 +26,26 @@ body {
 
 li a {
     display: block;
-    background-color: #e3ecf2;
-    color: #000;
+    background-color: #D1E3ED;
+    color: #254255;
     padding: 8px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #aac7da;
-    color: black;
+    background-color: #AAC7DA;
+    color: #254255;
+}
+
+.footer {
+    position: fixed;
+    padding: 8px 16px;
+    bottom: 10;
+    background: #f1f1f1;
+}
+
+h1,
+h2 {
+    color: #254255;
+    text-decoration: underline;
 }
