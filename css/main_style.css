@@ -30,7 +30,6 @@ li a {
     color: #254255;
     padding: 8px 16px;
     text-decoration: none;
-
     background-image: linear-gradient(#AAC7DA, #AAC7DA);
     background-repeat: no-repeat;
     transition: background-size .5s, color .5s;
