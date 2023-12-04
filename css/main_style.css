@@ -54,7 +54,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     color: #254255;
     text-decoration: underline;
 }
@@ -80,4 +81,19 @@ h2 {
 .navigation:after {
     bottom: 0;
     z-index: 1;
+}
+
+table,
+th,
+td {
+    border: 2px solid;
+    border-color: #254255;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: #D1E3ED;
 }
