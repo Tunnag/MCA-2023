@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Istok+Web&display=swap');
+
 body {
+    font-family: 'Istok Web';
+    background-color: #faf1f0;
     margin: 0;
 }
 
