@@ -30,18 +30,24 @@ li a {
     color: #254255;
     padding: 8px 16px;
     text-decoration: none;
+
+    background-image: linear-gradient(#AAC7DA, #AAC7DA);
+    background-repeat: no-repeat;
+    transition: background-size .5s, color .5s;
+    background-position: 0% 50%;
+    background-size: 0% 100%;
 }
 
 li a:hover {
-    background-color: #AAC7DA;
     color: #254255;
+    background-size: 100% 100%;
 }
 
 .footer {
     position: fixed;
     padding: 8px 16px;
     bottom: 10;
-    background: #f1f1f1;
+    background: #F7FCFF;
 }
 
 h1,
