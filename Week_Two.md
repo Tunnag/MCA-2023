@@ -3,7 +3,7 @@ layout: default
 title: Week Two
 ---
 
-For this section I converted my PDF Score of Кавал Свири to a [Musescore file](/data/Kaval_Sviri_Fixed.mscz) using the OMR (Optical Music Recognition) provided by the Musescore Website.
+For this section I converted my PDF Score of Кавал Свири to a [Musescore file](/data/Kaval_Sviri_Fixed.mscz) using the OMR (Optical Music Recognition) provided by the Musescore Website - I also went over this file personally to correct any inaccuracies.
 
 ## What didn't transfer well?
 
