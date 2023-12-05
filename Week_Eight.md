@@ -53,3 +53,13 @@ As the theme of my portfolio is a particular arrangement and performance of the 
 <p float align="center">
 <img src="data/Images/Wforms_Sgrams/Spectrogram TRAK.png" width="800" />
 </p>
+
+## Time-Frequency Analysis compared to Waveform-Based Analysis
+
+While waveform-based analysis can be useful for determining areas of silence vs areas of high volume, the addition of frequency information alongside the time and amplitude in time-frequency analysis (such as in the Spectrograms seen above) makes their use in musical analysis much more valuable.
+
+Unlike when viewing a waveform, with a spectrogram it is immediately clear to see areas both rich in frequencies and volumes allowing quick comparisons.
+
+For example, both The Bulgarian State Radio & Television Female Vocal Choir and Държавен Фолклорен Ансамбъл Тракия's performances of Kaval Sviri are by a Woman's Choir. While they are in different keys resulting in main hot points being on slightly different frequencies it is clear to see that, for the most part, frequencies remain in the upper half of the spectrogram - as expected from a choir of Woman's voice which tend to be higher in pitch.
+
+Conversely, the Balkan Ethno Orchestra version of the song features a wide array of instrumentation including percussion, woodwinds, strings and piano. Without knowing which spectrogram belongs to which version it is immediately clear which one is from the Balkan Ethno Orchestra as the range of frequencies shown covers the entire spectrogram.
