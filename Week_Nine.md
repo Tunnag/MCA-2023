@@ -50,19 +50,19 @@ For this section I was required to create Histograms for the features of the CSV
 
 |Section One|Section Two|Section Three|
 |--- |--- |--- |
-| <img src="/data/Images/For Week Nine/KS Section One Spectrogram Histogram.png" width="550" /> | <img src="/data/Images/For Week Nine/KS Section Two Spectrogram Histogram.png" width="550" /> | <img src="/data/Images/For Week Nine/KS Section Three Spectrogram Histogram.png" width="550" /> |
+| <img src="data/Images/For Week Nine/KS Section One Spectrogram Histogram.png" width="550" /> | <img src="data/Images/For Week Nine/KS Section Two Spectrogram Histogram.png" width="550" /> | <img src="data/Images/For Week Nine/KS Section Three Spectrogram Histogram.png" width="550" /> |
 
 ### Histograms from MFCCs
 
 |Section One|Section Two|Section Three|
 |--- |--- |--- |
-| <img src="/data/Images/For Week Nine/KS Section One MFCC Histogram.png" width="550" /> | <img src="/data/Images/For Week Nine/KS Section Two MFCC Histogram.png" width="550" /> | <img src="/data/Images/For Week Nine/KS Section Three MFCC Histogram.png" width="550" /> |
+| <img src="data/Images/For Week Nine/KS Section One MFCC Histogram.png" width="550" /> | <img src="data/Images/For Week Nine/KS Section Two MFCC Histogram.png" width="550" /> | <img src="data/Images/For Week Nine/KS Section Three MFCC Histogram.png" width="550" /> |
 
 ### Histograms from Chromagrams
 
 |Section One|Section Two|Section Three|
 |--- |--- |--- |
-| <img src="/data/Images/For Week Nine/KS Section One Chromagram Histogram.png" width="550" /> | <img src="/data/Images/For Week Nine/KS Section Two Chromagram Histogram.png" width="550" /> | <img src="/data/Images/For Week Nine/KS Section Three Chromagram Histogram.png" width="550" /> |
+| <img src="data/Images/For Week Nine/KS Section One Chromagram Histogram.png" width="550" /> | <img src="data/Images/For Week Nine/KS Section Two Chromagram Histogram.png" width="550" /> | <img src="data/Images/For Week Nine/KS Section Three Chromagram Histogram.png" width="550" /> |
 
 ### Comparison of Histograms from Chromagrams
 
