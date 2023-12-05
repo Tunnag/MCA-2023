@@ -64,4 +64,17 @@ For this section I was required to create Histograms for the features of the CSV
 |--- |--- |--- |
 | <img src="/data/Images/For Week Nine/KS Section One Chromagram Histogram.png" width="550" /> | <img src="/data/Images/For Week Nine/KS Section Two Chromagram Histogram.png" width="550" /> | <img src="/data/Images/For Week Nine/KS Section Three Chromagram Histogram.png" width="550" /> |
 
-### Comparison of 
+### Comparison of Histograms from Chromagrams
+
+The chromagram's 12 functions relate to the twelve pitches of the chromatic scale (C C# D D# E F F# G G# A A# B), with time along the X axis and number of occurances along the Y axis.
+This is useful when comparing how common pitches are across different audio files, and in the case of this analysis between the three sections of Кавал Свири.
+
+One of the first comparisons that can be made is between sections one and two is the difference in harmony and amount of notes being sung at once. 
+Section one is mostly in two part harmony with some four part towards the end, compared to section two which is entirely in four part harmony. We can see this in the Chromagram Histograms where there are more instances in section one around the notes of the Eminor chord (E G B) the melody moves around, compared to the more average distribution in section two as the melody and harmony develop.
+
+However, there is an issue with this in the form of tuning in the recording, as the recording in question has the choir singing slightly flat when compared to the Western standard equal temperment with A=440Hz. This is due to the traditions and conventions of Bulgarian music being different.
+Due to this, analysis must remember to look at both the note in question and the one a semitone below.
+
+When contrasting the previous sections with section three, the main change is the shift from being predominantly in Eminor to Emajor. The clearest representation of this can be seen when comparing sections two and three as the most common occurances shift up one function as the key changes.
+
+While these comparisons were able to be made on close inspection, they were not immediately obvious.
