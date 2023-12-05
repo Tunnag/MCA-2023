@@ -18,7 +18,7 @@ I have split the file into three this way as each is a contrasting section of th
 ### Section One
 
 <p float align="center">
-    <img src="data/Images/For Week Nine/KS Section One Waveform.png" width="900" />
+    <img src="./data/Images/For Week Nine/KS Section One Waveform.png" width="900" />
     <img src="data/Images/For Week Nine/KS Section One Spectrogram.png" width="900" />
     <img src="data/Images/For Week Nine/KS Section One MFCC.png" width="900" />
     <img src="data/Images/For Week Nine/KS Section One Chromagram.png" width="900" />
@@ -27,7 +27,7 @@ I have split the file into three this way as each is a contrasting section of th
 ### Section Two
 
 <p float align="center">
-    <img src="data/Images/For Week Nine/KS Section Two Waveform.png" width="900" />
+    <img src="./data/Images/For Week Nine/KS Section Two Waveform.png" width="900" />
     <img src="data/Images/For Week Nine/KS Section Two Spectrogram.png" width="900" />
     <img src="data/Images/For Week Nine/KS Section Two MFCC.png" width="900" />
     <img src="data/Images/For Week Nine/KS Section Two Chromagram.png" width="900" />
@@ -36,7 +36,7 @@ I have split the file into three this way as each is a contrasting section of th
 ### Section Three
 
 <p float align="center">
-    <img src="data/Images/For Week Nine/KS Section Three Waveform.png" width="900" />
+    <img src="./data/Images/For Week Nine/KS Section Three Waveform.png" width="900" />
     <img src="data/Images/For Week Nine/KS Section Three Spectrogram.png" width="900" />
     <img src="data/Images/For Week Nine/KS Section Three MFCC.png" width="900" />
     <img src="data/Images/For Week Nine/KS Section Three Chromagram.png" width="900" />
