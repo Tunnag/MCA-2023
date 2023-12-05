@@ -47,3 +47,5 @@ Among the most obvious issues:
 - The transcription has not correctly picked up on the parts of the score, converting a piece for four voices into a piano solo.
 - The key signature and harmony have not been translated correctly, and while still fundamentally similar in terms of pure harmony the voicings of chords are entirely incorrect.
 - For the most part rhythm has been inaccurately transcribed, as the original goes between 3/4 and 9/8 but the transcription is in 4/4 - as the score progresses these inaccuracies in rhythm become much more noticeable.
+
+These inaccuracies make the method of transcription majorly unreliable.
